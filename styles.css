@@ -1,0 +1,29 @@
+table {
+    padding: 20px; 
+    width: 300px; 
+}
+  th, td {
+    border: 1px solid #000000; 
+    padding: 3px;
+    text-align: left;
+    background-color: aqua;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+button {
+    background-color: aqua;
+    border: none; 
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+}

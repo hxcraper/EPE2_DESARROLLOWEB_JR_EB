@@ -1,0 +1,11 @@
+{
+  "name": "epe2-desarrollo",
+  "version": "1.0.0",
+  "description": "Desarrollo del trabajo de desarrollo web de johann rodriguez y enrique burotto",
+  "main": "busquedaProductos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EPE2</title>
+    
+</head>
+<body>
+    <h1>Busqueda de productos</h1>
+
+    <label for="selectProveedor">Seleccione el proveedor para filtrar: </label>
+    <select id="selectProveedor">
+        <option value="">Todos</option>
+        <option value="Exotic Liquids">Exotic Liquids</option>
+        <option value="New Orleans Cajun Delights">New Orleans Cajun Delights</option>
+        <option value="Grandma Kelly's Homestead">Grandma Kelly's Homestead</option>
+        <option value="Tokyo Traders">Tokyo Traders</option>
+        <option value="Cooperativa de Quesos 'Las Cabras'">Cooperativa de Quesos 'Las Cabras'</option>
+        <option value="Mayumi's">Mayumi's</option>
+        <option value="Pavlova, Ltd.">Pavlova, Ltd.</option>
+        <option value="Aux joyeux ecclésiastiques">Aux joyeux ecclésiastiques</option>
+        <option value="New England Seafood Cannery">New England Seafood Cannery</option>
+        <option value="Leka Trading">Leka Trading</option>
+        <option value="Lyngbysild">Lyngbysild</option>
+        <option value="Zaanse Snoepfabriek">Zaanse Snoepfabriek</option>
+        <option value="G'day, Mate">G'day, Mate</option>
+        <option value="Ma Maison">Ma Maison</option>
+        <option value="Pasta Buttini s.r.l.">Pasta Buttini s.r.l.</option>
+        <option value="Escargots Nouveaux">Escargots Nouveaux</option>
+        <option value="Gai pâturage">Gai pâturage</option>
+        <option value="Forêts d'érables">Forêts d'érables</option>
+    </select>
+    <br><br>
+
+    <label for="selectCategoria">Seleccione el categoria para filtrar: </label>
+    <select id="selectCategoria">
+        <option value="">Todos</option>
+        <option value="Bebidas">Bebidas</option>
+        <option value="Carnes">Carnes</option>
+        <option value="Productos del mar">Productos del mar</option>
+        <option value="Productos lácteos">Productos lácteos</option>
+        <option value="Confitería">Confitería</option>
+        <option value="Productos agrícolas">Productos agrícolas</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="filtrarProductos()" class="boton">Filtrar</button>
+
+    <div id="resultado"></div>
+    <script src="busquedaProductos.js"></script>
+    
+</body>
+</html>
